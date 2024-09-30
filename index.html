@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "2YYbPGyioPbrOWnnm",
+        });
+      })();
+    </script>
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header">
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+      <a href="#" class="logo">Portfolio</a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skill">Skills</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!--Home Section-->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi,Myself</h3>
+        <h1>Pugal Surendar</h1>
+        <h3>And I'm a <span>Software Developer</span></h3>
+        <p>
+          Skilled software developer with expertise in building scalable
+          applications and optimizing performance. Proficient in Java, with
+          experience in both back-end and front-end development. Passionate
+          about problem-solving and delivering efficient, maintainable code.
+          Experienced in working with cross-functional teams to deliver
+          high-quality software solutions.
+        </p>
+        <div class="social-media">
+          <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/pugal-surendar-s-25a3a3250/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/pugal_sl/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+        <a
+          href="src/Pugal Resume-soft.pdf"
+          download="Pugal_Resume.pdf"
+          class="btn"
+          >Download CV</a
+        >
+      </div>
+      <div class="home-img">
+        <img src="src/pugal_new-removebg11.png" width="500px" height="500px" />
+      </div>
+    </section>
+
+    <!-- About Section-->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="src/IMG_20240305_202249_151.jpg" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Software Developer</h3>
+        <p>
+          I am a dedicated software developer with a strong passion for creating
+          efficient, high-performing applications. With a solid foundation in
+          Java and experience across both front-end and back-end development, I
+          enjoy tackling complex problems and transforming ideas into
+          functional, scalable solutions. Collaboration and continuous learning
+          are key values in my work, and I thrive in cross-functional teams
+          where innovation and quality are prioritized. My focus is on writing
+          clean, maintainable code that meets business objectives and delivers
+          an excellent user experience.
+        </p>
+        <a href="#" class="btn">Read more</a>
+      </div>
+    </section>
+
+    <!-- Services Section-->
+    <section class="skill" id="skill">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="skill-container">
+        <div class="skill-box">
+          <i class="fa-brands fa-java"></i>
+          <h3>Java</h3>
+          <p>
+            Developed robust and scalable Java applications using
+            object-oriented programming principles and Java frameworks.
+            Implemented efficient algorithms and data structures to improve
+            application performance and reliability.
+          </p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+
+        <div class="skill-box">
+          <i class="fa-solid fa-code"></i>
+          <h3>Web Development</h3>
+          <p>
+            Proficient in building responsive and interactive web applications
+            using HTML, CSS, and JavaScript. Experienced in designing and
+            developing scalable, efficient, and maintainable web applications
+            using React.
+          </p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+
+        <div class="skill-box">
+          <i class="fa-solid fa-database"></i>
+          <h3>MySQL</h3>
+          <p>
+            Designed and developed scalable MySQL databases to store and manage
+            large datasets. Wrote complex SQL queries to retrieve and manipulate
+            data. Optimized database performance by analyzing and indexing
+            queries
+          </p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section-->
+    <section class="project" id="project">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="project-container">
+        <div class="project-box">
+          <img src="src/1.jpg" alt="" />
+          <div class="project-layer">
+            <h4>Text To Speech Converter</h4>
+            <p>
+              Built a Text-to-Speech converter utilizing the Web Speech API in
+              JavaScript. The application converts written text into audible
+              speech, providing an intuitive way to enhance user engagement. It
+              supports various languages and voices, making it adaptable for
+              diverse audiences. This tool improves accessibility and enriches
+              the overall user experience on web platforms.
+            </p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="src/2.jpg" alt="" />
+          <div class="project-layer">
+            <h4>To Do List</h4>
+            <p>
+              Developed a dynamic To-Do List application using JavaScript,
+              allowing users to add, delete, and manage tasks efficiently. The
+              application supports task filtering, enabling users to view
+              completed or pending tasks separately. Local storage is
+              implemented to save tasks across sessions, ensuring persistent
+              data. This project enhances productivity by offering a simple and
+              interactive task management solution.
+            </p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="src/3.jpg" alt="" />
+          <div class="project-layer">
+            <h4>Snake Game using Java</h4>
+            <p>
+              Created a classic Snake Game using Java, featuring smooth controls
+              and real-time game mechanics. The game challenges players to
+              control a growing snake, avoiding collisions and collecting food
+              to increase the score. Implemented object-oriented principles for
+              managing the snake's movement, food generation, and game state.
+              This project showcases problem-solving skills and reinforces core
+              Java concepts in a fun, interactive way.
+            </p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="src/4.jpg" alt="" />
+          <div class="project-layer">
+            <h4>File Compression</h4>
+            <p>
+              Implemented a File Compression tool using Java, enabling efficient
+              reduction of file sizes while maintaining data integrity. The
+              project utilizes algorithms like Huffman coding for compressing
+              and decompressing files. It supports multiple file formats and
+              provides significant space savings, making file storage and
+              sharing more efficient. This project demonstrates proficiency in
+              data structures, algorithms, and file handling in Java..
+            </p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="src/5.jpg" alt="" />
+          <div class="project-layer">
+            <h4>Upcoming Projects</h4>
+            <p>
+              Currently working on developing a real-time chat application using
+              React and Node.js to enable seamless communication with WebSocket
+              integration. Additionally, planning to build a weather forecasting
+              app using APIs and JavaScript for accurate, location-based weather
+              updates.
+            </p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="src/6.jpg" alt="" />
+          <div class="project-layer">
+            <h4>Upcoming Projects</h4>
+            <p>
+              Currently working on developing a real-time chat application using
+              React and Node.js to enable seamless communication with WebSocket
+              integration. Additionally, planning to build a weather forecasting
+              app using APIs and JavaScript for accurate, location-based weather
+              updates.
+            </p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section-->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>me</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" id="fname" placeholder="Full Name" required />
+          <input
+            type="email"
+            id="Email_Address"
+            placeholder="Email Address"
+            required
+          />
+        </div>
+        <div class="input-box">
+          <input
+            type="number"
+            id="mobilenumber"
+            placeholder="Mobile Number"
+            required
+          />
+          <input
+            type="text"
+            id="subject"
+            placeholder="Email Subject"
+            required
+          />
+        </div>
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <input
+          type="button"
+          onclick="sendMail()"
+          value="Send Message"
+          class="btn"
+        />
+      </form>
+      <div id="toastBox"></div>
+    </section>
+
+    <!-- Footer Section-->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by @pugal | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
+
+    <!--Scroll Reaveal JS-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--Main JS-->
+    <!-- <script src="script.js "></script> -->
+  </body>
+</html>
