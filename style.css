@@ -581,6 +581,9 @@ input[type="number"]::-webkit-outer-spin-button {
     .about-img img{
         width: 90vw;
     }
+    .about-content h3,p{
+        padding: 10px;
+    }
     .project-container {         
         grid-template-columns: 1fr;     
     }
