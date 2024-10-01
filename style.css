@@ -584,6 +584,9 @@ input[type="number"]::-webkit-outer-spin-button {
     .about-content h3,p{
         padding: 10px;
     }
+    .logo{
+        padding-right: 70px;
+    }
     .project-container {         
         grid-template-columns: 1fr;     
     }
